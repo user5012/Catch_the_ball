@@ -35,12 +35,13 @@ The Tkinter window lets you choose the difficulty level of the game before start
 
 ## Dependencies
 
-- Pygame: You need to have the Pygame library installed to run this game.
+- Pygame: You need to have the Pygame library installed to run this game (You can download it by running the file).
 
 ## How to Run
 
-1. Make sure you have Python and Pygame installed.
-2. Copy the code into a Python file, e.g., `catch_the_ball_game.py`.
-3. Run the Python script to start the game.
+1. Make sure you have Python 3 is installed
+2. Go Download [here](https://github.com/user5012/Catch_the_ball/releases/tag/v1.0) the `Catch.the.ball.setup.msi` installer from realises tab
+3. Run the `Catch.the.ball.setup.msi`
+4. Nevigate to your `Desktop` and run the `Catch the ball` shortcut
 
 **Enjoy playing Catch the Ball!**
