@@ -1,8 +1,28 @@
-import pygame
-import random
-from tkinter import messagebox
-import pygame.font
-import tkinter as tk
+import os
+class bcolors:
+    HEADER = '\033[95m'
+    OKBLUE = '\033[94m'
+    OKCYAN = '\033[96m'
+    OKGREEN = '\033[92m'
+    WARNING = '\033[93m'
+    FAIL = '\033[91m'
+    ENDC = '\033[0m'
+    BOLD = '\033[1m'
+    UNDERLINE = '\033[4m'
+try:
+    import pygame
+    import random
+    from tkinter import messagebox
+    import pygame.font
+    import tkinter as tk
+except ModuleNotFoundError as e:
+    print(e)
+    print("You havent installed Requirements. IF NOT WORK RUN requirements.bat")
+    print(bcolors.OKCYAN,"Installing requirements!.....",bcolors.ENDC)
+    os.system("pip install -r requirements.txt")
+    
+print(bcolors.OKBLUE,"WELCOMEEE",bcolors.ENDC)
+    
 
 WIDTH, HEIGHT = 400, 400
 PADDLE_WIDTH, PADDLE_HEIGHT = 80, 10
