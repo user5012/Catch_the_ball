@@ -151,7 +151,7 @@ while running:
         else:
             running = False
 
-    score_lb = font.render(f"{SCORE}",True,(1,1,1))
+    score_lb = font.render(f"SCORE: {SCORE}",True,(1,1,1))
     screen.blit(score_lb,(10,10))
 
     # Update the display
