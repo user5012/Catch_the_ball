@@ -1,4 +1,7 @@
 /build/
 /dist/
+/Catch The Ball-cache/
+/Catch The Ball-SetupFiles/
+*.aip
 *.spec
 game.ico
